@@ -1,0 +1,30 @@
+.blue-bg {
+  background-image: linear-gradient(#95cee9, #5da1ce);
+  color: white;
+}
+
+.blue-bg2 {
+  background-color: #5da1ce;
+  color: white;
+}
+
+.navy-bg {
+  background-color: #364049;
+  color: white;
+}
+
+.vert {
+  padding-top: 10px;
+}
+
+.title {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.title-img {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
