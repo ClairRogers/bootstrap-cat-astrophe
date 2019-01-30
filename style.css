@@ -13,18 +13,28 @@
   color: white;
 }
 
-.vert {
-  padding-top: 10px;
-}
-
 .title {
   text-align: center;
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 
 .title-img {
   text-align: center;
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-left: 100px;
+  padding-right: 50px;
+  vertical-align:bottom;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  transition: all 1s ease;
+}
+
+a:hover {
+  text-decoration: none;
+  letter-spacing: 1px;
+  color: white;
 }
