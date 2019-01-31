@@ -1,31 +1,34 @@
 body {
+  font-family: 'KoHo', sans-serif;
   font-size: 12px;
   color: rgb(122, 122, 122);
 }
 
+.pacifico {
+  font-family: 'Pacifico', cursive;
+}
+
 .blue-bg {
-  background-image: linear-gradient(#95cee9, #5da1ce);
+  background-image: linear-gradient(#a7d7c5, #74b49b);
   color: white;
 }
 
 .blue-bg2 {
-  background-color: #5da1ce;
+  background-color: #74b49b;
   color: white;
 }
 
 .navy-bg {
-  background-color: #364049;
+  background-color: #385f5c;
   color: white;
 }
 
 .title {
-  text-align: center;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
   padding-top: 100px;
   padding-bottom: 50px;
-}
-
-.vert {
-  padding-top:10px;
 }
 
 .title-img {
@@ -40,10 +43,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url('https://slack-imgs.com/?c=1&url=https%3A%2F%2Fchrisbrownie55.github.io%2F109leadr%2Ftexting.jpg');
+  flex-direction: column;
+  background-image: url("cat-photo.jpg");
   background-size: cover;
   opacity: .5;
-  font-size: 80px;
+  text-shadow: 0 0 2px black;
   transition: all .5s ease;
 }
 
@@ -54,7 +58,7 @@ body {
 a {
   text-decoration: none;
   color: white;
-  transition: all 1s ease;
+  transition: all .5s ease;
 }
 
 a:hover {
@@ -65,7 +69,13 @@ a:hover {
 
 .btn-info {
   border-radius: 20px;
-  background-color: #5f99be;
+  background-color: #5c8d89;
+  border: 1px solid #3a615e;
+}
+
+.btn-info:hover {
+  background-color: #517e7a;
+  border: 1px solid #315351;
 }
 
 .row2 {
