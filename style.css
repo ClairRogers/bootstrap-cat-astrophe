@@ -20,7 +20,7 @@ a:hover {
   font-family: 'Pacifico', cursive;
 }
 
-nav.row {
+nav {
   background-color: #a7d7c5;
   color: white;
   position: fixed;
@@ -29,18 +29,18 @@ nav.row {
   z-index: 5;
 }
 
-.gr-bg {
+.basic-info {
   background-image: linear-gradient(#a7d7c5, #74b49b);
   color: white;
   margin-top: 50px;
 }
 
-.gr-bg2 {
+.play-vid {
   background-color: #74b49b;
   color: white;
 }
 
-.forest-bg {
+footer {
   background-color: #385f5c;
   color: white;
 }
@@ -99,4 +99,8 @@ nav.row {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.social:hover {
+  text-shadow: 0 0 3px white;
 }
