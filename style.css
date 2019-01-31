@@ -26,7 +26,6 @@ body {
 
 .vert {
   padding-top:10px;
-  vertical-align: middle;
 }
 
 .title-img {
@@ -38,9 +37,18 @@ body {
 }
 
 .video-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-image: url('https://slack-imgs.com/?c=1&url=https%3A%2F%2Fchrisbrownie55.github.io%2F109leadr%2Ftexting.jpg');
-  background-size: 100%;
+  background-size: cover;
   opacity: .5;
+  font-size: 80px;
+  transition: all .5s ease;
+}
+
+.video-img:hover {
+  opacity: 1;
 }
 
 a {
@@ -74,4 +82,10 @@ a:hover {
 
 .read-news {
   box-shadow: 0 0 30px rgb(231, 231, 231);
+}
+
+.apple-android {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
